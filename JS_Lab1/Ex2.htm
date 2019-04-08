@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Initial </title>
+<script>
+function Test() 
+{
+	var number = document.getElementById('Num').value;
+	if(isNaN(number))
+	{
+		alert("Not an Number");
+
+	}else if(number > 0 && number <= 10 )
+	{
+		alert("Your actual mark is " + number*10);
+	}else{
+		alert("Number too big");
+	}
+}
+</script>
+</head>
+<body>
+
+ Enter Your Mark : <input type="text" id="Num" size="5">
+<br/>
+<input type="button" value="Enter Mark" id="B1" onClick="Test()">
+
+</body>
+</html>

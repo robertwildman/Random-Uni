@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Initial </title>
+<script>
+function Test() 
+{
+	var num1 = document.getElementById('Num1').value;
+	var num2 = document.getElementById('Num2').value;
+	if(isNaN(num1)||isNaN(num2))
+	{
+		alert("One or both of the inputs are not numbers");
+
+	}else {
+		alert("The total is " + (parseInt(num1) + parseInt(num2)));
+	}
+}
+function Multiply() 
+{
+	var num1 = document.getElementById('Num1').value;
+	var num2 = document.getElementById('Num2').value;
+	if(isNaN(num1)||isNaN(num2))
+	{
+		alert("One or both of the inputs are not numbers");
+
+	}else {
+		alert("The total is " + (parseInt(num1) * parseInt(num2)));
+	}
+}
+</script>
+</head>
+<body>
+
+ Enter Num1 : <input type="text" id="Num1" size="5">
+<br/>
+Enter Num2 : <input type="text" id="Num2" size="5">
+<input type="button" value="Add" id="B1" onClick="Test()">
+<input type="button" value="Multiply" id="B1" onClick="Multiply()">
+</body>
+</html>

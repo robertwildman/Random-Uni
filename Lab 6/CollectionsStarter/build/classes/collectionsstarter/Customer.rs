@@ -1,0 +1,3 @@
+collectionssolution.Customer
+collectionssolution.Customer$1
+collectionssolution.Customer$2

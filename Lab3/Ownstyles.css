@@ -1,0 +1,59 @@
+h1
+{ 
+	font-family:  comic-sans;
+	color: pink;
+}
+.glasgow
+{
+	float:left;
+	border: 1px solid black;
+	width: 50%;
+}
+.swift
+{
+	margin:0 auto;
+	width: 50%;
+	border: 1px solid black;
+}
+.sectionlinks
+{
+	float:right;
+}
+.links
+{
+	border: 1px solid black;
+	width: 20%;
+	float: left;
+	margin-left: 20px;
+}
+ol
+{
+	list-style-type: upper-roman;
+}
+table 
+{
+	background-color:red;
+}
+h1:hover 
+{
+	color:green;
+}
+body
+{
+	background-color:aqua;
+}
+a:visited
+{
+	color:grey;
+}
+a
+{
+	color:black;
+}
+h2
+{
+	color:red;
+}
+table{
+	border:1; 
+}

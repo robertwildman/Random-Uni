@@ -1,0 +1,47 @@
+body
+{
+	color: #880000;
+	background: #333333;
+}
+h1
+{
+	color:#000080;
+	font-family:arial,sans-serif;
+}
+h2
+{
+	color:olive;
+	font-family:arial,sans-serif;
+	font-style:italic;
+}
+ul 
+{
+	list-style-type:circle;
+}
+
+p.band75
+{
+  background-color: #cccccc;
+  border-color: #800000;
+  border-style: solid;
+  border-width: medium;
+  color: #0000CC;
+}
+p.band84
+{
+  background-color: #CCCCCC;
+  border-color: #800000;
+  border-style: double;
+  border-width: 20px;
+  color: #0000CC;
+  padding: 20px;
+  margin: 20px;	
+
+}
+table,tr,td
+{
+  background-color: red;
+  color:white;
+  border: 1px solid black;
+  border-collapse: collapse;
+}

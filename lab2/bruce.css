@@ -1,0 +1,39 @@
+body
+{
+	color: #880000;
+	background: #fff;
+}
+h1
+{
+	color:#000080;
+	font-family:arial,sans-serif;
+}
+h2
+{
+	color:olive;
+	font-family:arial,sans-serif;
+	font-style:italic;
+}
+ul 
+{
+	list-style-type:circle;
+}
+p .band75
+{
+  background-color: #C8F526;
+  border-color: #800000;
+  border-style: solid;
+  border-width: medium;
+  color: #0000CC;
+}
+p .band84
+{
+  background-color: #CCCCCC;
+  border-color: #800000;
+  border-style: double;
+  border-width: 20px;
+  color: #0000CC;
+  padding: 50px;
+  margin: 50px;	
+
+}

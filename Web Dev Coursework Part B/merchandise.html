@@ -1,0 +1,67 @@
+<!doctype HTML>
+<head>
+	<script type="text/javascript">
+		function clean()
+		 {
+			document.getElementById('name').value = "";
+			document.getElementById('item1').value = "0";
+			document.getElementById('item2').value = "0";
+			document.getElementById('postage').value = "1";
+			document.getElementById('totalcost').innerHTML = "";
+		}
+		function cal()
+		{
+			var customername = document.getElementById('name').value;
+			if(customername.length < 4)
+			{
+				document.getElementById('NameError').innerHTML = "Please Enter A name that is longer then 3 chars.";
+				
+			}else
+			{
+				var item1t =  document.getElementById('item1').value;
+				var item2t =  document.getElementById('item2').value;
+				item1t = parseInt(item1t) * 5;
+				item2t = parseInt(item2t) * 10;
+				var postage = document.getElementById('postage').value;
+				var totalcost = parseInt(item1t) + parseInt(item2t) + parseInt(postage);
+				document.getElementById('totalcost').innerHTML = "Total Cost: &pound" + totalcost;
+			}
+		}
+
+		
+	</script>
+</head>
+<body>
+	<form id="Order">
+		Name:
+		<input type="text" id="name"> <span id="NameError"> </span>
+		<br>
+		Item 1 Cost £5
+		<select id="item1">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+		<br>
+		Item 2 Cost £10
+		<select id="item2">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+		<br>
+		Postage
+		<select id="postage">
+			<option value="1">Royal Mail 2nd Class £1 </option>
+			<option value="2">Royal Mail 1st Class £2</option>
+			<option value="4">Royal Mail Next Day £4 </option>
+		</select>
+		<br>
+		<p id="totalcost">Total Cost: </p>
+		<br>
+		<input type="button" id="totalcost" value = "Calculate Total Cost" onclick="cal()">
+		<input type="button" id="clear" value = "Clear" onclick="clean()">
+	</form>
+</body>

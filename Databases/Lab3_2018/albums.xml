@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <ALBUM_ID>1</ALBUM_ID>
+  <ALBUM_TITLE>What's Going On</ALBUM_TITLE>
+  <ARTIST>Marvin Gaye</ARTIST>
+ </ROW>
+ <ROW>
+  <ALBUM_ID>6</ALBUM_ID>
+  <ALBUM_TITLE>Innervisions</ALBUM_TITLE>
+  <ARTIST>Stevie Wonder</ARTIST>
+ </ROW>
+ <ROW>
+  <ALBUM_ID>7</ALBUM_ID>
+  <ALBUM_TITLE>The Crane Wife</ALBUM_TITLE>
+  <ARTIST>The Decemberists</ARTIST>
+ </ROW>
+ <ROW>
+  <ALBUM_ID>2</ALBUM_ID>
+  <ALBUM_TITLE>Remasters</ALBUM_TITLE>
+  <ARTIST>Led Zeppelin</ARTIST>
+ </ROW>
+ <ROW>
+  <ALBUM_ID>3</ALBUM_ID>
+  <ALBUM_TITLE>Hotel California</ALBUM_TITLE>
+  <ARTIST>Eagles</ARTIST>
+ </ROW>
+ <ROW>
+  <ALBUM_ID>4</ALBUM_ID>
+  <ALBUM_TITLE>Singles</ALBUM_TITLE>
+  <ARTIST>Various</ARTIST>
+ </ROW>
+ <ROW>
+  <ALBUM_ID>5</ALBUM_ID>
+  <ALBUM_TITLE>All About Eve</ALBUM_TITLE>
+  <ARTIST>All About Eve</ARTIST>
+ </ROW>
+</ROWSET>

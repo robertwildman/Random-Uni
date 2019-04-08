@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <REGION_ID>1</REGION_ID>
+  <REGION_NAME>Europe</REGION_NAME>
+ </ROW>
+ <ROW>
+  <REGION_ID>2</REGION_ID>
+  <REGION_NAME>Americas</REGION_NAME>
+ </ROW>
+ <ROW>
+  <REGION_ID>3</REGION_ID>
+  <REGION_NAME>Asia</REGION_NAME>
+ </ROW>
+ <ROW>
+  <REGION_ID>4</REGION_ID>
+  <REGION_NAME>Middle East and Africa</REGION_NAME>
+ </ROW>
+</ROWSET>
